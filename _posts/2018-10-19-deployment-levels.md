@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Deployment Levels"
-date:   2018-10-18 23:09:59 -0500
-tags: tag1
+title: "Deployment Levels"
+date: 2018-10-18 23:09:59 -0500
+tags: webdev
 ---
 ## Background
 
