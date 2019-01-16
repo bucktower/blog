@@ -24,7 +24,8 @@ github_username: bucktower
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: samesies/barber-jekyll
 plugins:
   - jekyll-feed
 
