@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: default
 title:  "Deployment Levels"
 date:   2018-10-18 23:09:59 -0500
-categories: [devops, web]
+tags: tag1
 ---
 ## Background
 

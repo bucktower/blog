@@ -1,0 +1,30 @@
+<h2 id="background">Background</h2>
+
+<p>There is no right way to do CI/CD. I’ve put a decent amount of thought in it, and have decided on the three-tiered approach: <strong>dev</strong>, <strong>staging</strong>, and <strong>live</strong>.</p>
+
+<h2 id="development-server">Development Server</h2>
+
+<p>The goal of the development server is to be extremely easy and intuitive to set up. This is the first step in deployment to happen for a project – the MVP. It’s also the most common deployment, done whenever the developer wants, not necessarily tests are passed (“bleeding edge”). We want to use tools that make it easy for developers, not requiring anything beyond what works for localhost (no containers or tests):</p>
+
+<ul>
+  <li><a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk</a> (Go, Java, .NET, Node.js, PHP, Python, Ruby)</li>
+  <li><a href="https://cloud.google.com/appengine/">Google App Engine</a> (Python, Java, Node.js, Go, Ruby, PHP, .NET)</li>
+  <li><a href="https://www.heroku.com/">Heroku</a> (Node.js, Ruby, Python, Java, PHP, Go, Scala, Clojure, Kotlin)</li>
+  <li><a href="https://azure.microsoft.com/en-us/services/app-service/">Azure App Service</a> (ASP.NET Core, Java, Ruby, Node.js, PHP, Python)</li>
+  <li><a href="https://github.com/dokku/dokku">Dokku</a></li>
+</ul>
+
+<p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
