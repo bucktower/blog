@@ -25,7 +25,7 @@ github_username: bucktower
 # Build settings
 markdown: kramdown
 # theme: minima
-remote_theme: jekyller/jasper2
+remote_theme: h01000110/windows-95
 plugins:
   - jekyll-feed
 
